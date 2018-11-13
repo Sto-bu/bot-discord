@@ -2,7 +2,7 @@ const Discord = require('discord.js');
  const client = new Discord.Client();
  var prefix = "*";
  
- client.login(conv.env.TOKEN)
+ client.login(process.env.TOKEN)
 
  client.on('message', async message => { 
 
